@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: #fef7de;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+#header {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(111, 0, 255);
+}
+
+a:hover {
+    color: rgb(209, 150, 0);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+footer {
+    background-color: rgb(224, 201, 145);
+    color: wh;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    padding: 1rem;
+    width: 100%;
+}
