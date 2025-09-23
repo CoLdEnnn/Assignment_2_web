@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozy Bean - Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header id="header">
+    <h1>Cozy Bean</h1>
+    <img src="images/User.png" alt="login" class="login">
+  </header>
+
+  <!-- Навигация -->
+  <nav class="nav-bar">
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="specials.html">Specials</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="location.html">Location</a>
+      <a href="login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- Контент -->
+  <main>
+    <h2>Our Coffee Blog</h2>
+
+    <div>
+      <h3>The Secret of Perfect Espresso</h3>
+      <p>
+        Espresso is the base of almost every coffee drink. 
+        To make it perfect, you need finely ground beans, hot water at the right temperature, and the skills of a good barista.
+      </p>
+      <p>
+        In our coffee shop, we test different beans and roast levels to create a balanced flavor. 
+        The golden crema on top of espresso is always a sign of quality.
+      </p>
+    </div>
+
+    <div>
+      <h3>Top 3 Coffee Beans in the World</h3>
+      <p>Here are three of the most famous coffee beans:</p>
+      <ul>
+        <li>Arabica (Ethiopia) – smooth and sweet.</li>
+        <li>Robusta (Vietnam) – strong, more caffeine.</li>
+        <li>Liberica (Philippines) – rare with smoky flavor.</li>
+      </ul>
+      <p>
+        Each bean type has its own taste. At Cozy Bean, we offer different kinds so you can try them all.
+      </p>
+    </div>
+
+    <div>
+      <h3>Why Coffee Makes You Happy</h3>
+      <p>
+        Coffee doesn’t just wake you up. It improves your mood because it helps your brain release dopamine, the “happiness” chemical.
+      </p>
+      <p>
+        Coffee is also about the atmosphere: relaxing in a cozy café, talking with friends, or enjoying a quiet moment. 
+        That’s why coffee is more than just a drink.
+      </p>
+    </div>
+  </main>
+
+  <!-- Подвал -->
+  <footer>
+    SE-2407 <br>
+    Aliya Galidullayeva, Damir Ushkempir, Aimaut Bolatkhanuly, Madiyar Amanzhol
+  </footer>
+
+</body>
+</html>
