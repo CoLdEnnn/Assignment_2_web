@@ -5,6 +5,26 @@ body {
     margin: 0;
 }
 
+nav {
+    background-color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    color: rgb(111, 0, 255);
+    text-decoration: none;
+    margin 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
 a {
     text-decoration: none;
     color: rgb(111, 0, 255);
@@ -20,4 +40,78 @@ a:hover {
     background-color: white;
     padding: 15px;
     border: 2px solid black;
+}
+
+#header::before {
+    content: "☕ ";
+}
+
+#header::after{
+    content: " 👤✓";
+}
+
+#main {
+    background-color: #fef7de;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+
+#mainphoto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#coffee-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+footer {
+    text-align: center;
+    background-color: rgb(224, 201, 145);
+    bottom: 0;
+    height: 50px;
+    padding: 1rem;
+    width: 100%;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: #a98501;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+form {
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  border-color: #0066cc;
+  outline: none;
 }
