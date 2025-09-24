@@ -7,52 +7,64 @@
     <title>Cozy Bean</title>
 </head>
 <body>
+    <!-- Шапка -->
     <header id="header">
         <h1>Cozy Bean</h1>
         <img src="images/User.png" alt="login" class="login" href="Login.html">
     </header>
 
+     <!-- Навигация -->
+    <nav class="nav-bar">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="specials.html">Specials</a>
+            <a href="blog.html">Blog</a>
+            <a href="location.html">Location</a>
+            <a href="Login.html">Login</a>
+        </div>
+    </nav>
+
+    <!-- Контент -->
     <main id="main">
-        <nav class="nav-bar">
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="menu.html">Menu</a>
-                <a href="about.html">About Us</a>
-                <a href="contact.html">Contact</a>
-                <a href="specials.html">Specials</a>
-                <a href="blog.html">Blog</a>
-                <a href="location.html">Location</a>
-                <a href="Login.html">Login</a>
-            </div>
-        </nav>
         <img src="images/photo.jpg" alt="mainphoto" id="mainphoto"> 
         <img src="" alt="search icon" id="search-icon">
+
         <form action="/search" method="get">
-        <input type="search" id="search-input" name="query" placeholder="Choose an establishment">
+            <input type="search" id="search-input" name="query" placeholder="Choose an establishment">
+            <button type="submit" id="search-button">Search</button>
         </form>
+        
         <h1>Menu</h1>
-        <img src="" alt="">
+        <img src="images/Coffee.jpg" alt="coffee img" id="coffee-image">
         <h1>Special Offers</h1>
-        <p></p>
+
         <div>
-      <h3>Morning Latte</h3>
-      <p>Start your day with our creamy latte. Only 900₸ until 12:00 PM!</p>
-      <img src="images/latte.jpg" alt="Latte" width="200">
-    </div>
+          <h3>Morning Latte</h3>
+          <p>Start your day with our creamy latte. Only 900₸ until 12:00 PM!</p>
+          <img src="images/latte.jpg" alt="Latte" width="200">
+        </div>
 
-    <div>
-      <h3>Coffee + Muffin Combo</h3>
-      <p>Perfect match: Cappuccino and Muffin for just 1500₸.</p>
-      <img src="images/muffin.jpg" alt="Muffin" width="200">
-    </div>
+        <div>
+          <h3>Coffee + Muffin Combo</h3>
+          <p>Perfect match: Cappuccino and Muffin for just 1500₸.</p>
+          <img src="images/muffin.jpg" alt="Muffin" width="200">
+        </div>
 
-    <div>
-      <h3>Iced Coffee Deal</h3>
-      <p>Stay cool with our refreshing iced coffee – Buy 1, Get 1 Free!</p>
-      <img src="images/icedcoffee.jpg" alt="Iced Coffee" width="200">
-    </div>
+        <div>
+          <h3>Iced Coffee Deal</h3>
+          <p>Stay cool with our refreshing iced coffee – Buy 1, Get 1 Free!</p>
+          <img src="images/icedcoffee.jpg" alt="Iced Coffee" width="200">
+        </div>
+        
+        <h1>Location</h1>
+        <h1>About us</h1>
+        <h1>Contact</h1>
     </main>
 </body>
+ <!-- Подвал -->
 <footer>
     SE-2407<br>
     Aliya Galidullayeva, Damir Ushkempir, Aimaut Bolatkhanuly, Madiyar Amanzhol
