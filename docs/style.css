@@ -1,24 +1,23 @@
-form {
-  width: 400px;
-  margin: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-family: Arial, Helvetica, sans-serif;
+body {
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin: 0;
 }
 
-input[type="text"], input[type="email"], input[type="password"], textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-  box-sizing: border-box;
+a {
+    text-decoration: none;
+    color: rgb(111, 0, 255);
+    font-weight: 500;
 }
 
-input:focus, textarea:focus {
-  border-color: #0066cc;
-  outline: none;
+a:hover {
+    color: rgb(209, 150, 0);
+    text-decoration: underline;
+}
+
+#header {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid black;
 }
